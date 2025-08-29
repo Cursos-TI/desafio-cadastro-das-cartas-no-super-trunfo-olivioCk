@@ -3,10 +3,12 @@
 int main(){
 printf("Desafio super trunfo");
 
-   char carta01, Estado, Codigo, Cidade;
+   char carta01[50], Estado, Codigo, Cidade[50];
    
-   int população, pontosturisticos;
-   float Área, PIB;
+   int população;
+   int pontosturisticos;
+   float Área;
+   float PIB;
 
    printf("Digite sua carta01: \n");
    scanf("%s", &carta01);
@@ -28,6 +30,7 @@ printf("Desafio super trunfo");
 
    printf("Digite sua Área: \n");
    scanf("%f", &Área);
+   
    
    printf("Digite seu PIB: \n");
    scanf("%f", &PIB);
