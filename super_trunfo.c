@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-   printf("Desafio super trunfo\n");
+   printf("Desafio super trunfo \n");
 
    char carta01[50], codigo01[50], Estado01[50], cidade01[50];
    int população01;
@@ -16,7 +16,7 @@ int main(){
    float PIB02;
 
    printf("Digite sua carta01: \n");
-   scanf("%s", carta01);
+   scanf("%f", &carta01);
 
    printf("Digite seu codigo: \n");
    scanf("%s", codigo01);
@@ -34,16 +34,16 @@ int main(){
    scanf("%d", &pontosturisticos01);
 
    printf("Digite sua area: \n");
-   scanf("%1f", &area01);
+   scanf("%f", &area01);
 
    printf("Digite seu PIB: \n");
-   scanf("%1f", PIB01);
+   scanf("%f", &PIB01);
 
 
-   printf("Digite sua carta: \n");
-   scanf("%s", carta02);
+   printf("Digite sua carta02: \n");
+   scanf("%f", &carta02);
 
-   Printf("Digite seu codigo: \n");
+   printf("Digite seu codigo: \n");
    scanf("%s", codigo02);
 
    printf("Digite o Estado: \n");
@@ -61,8 +61,8 @@ int main(){
    printf("Digite sua area: \n");
    scanf("%f", &area02);
 
-   Printf("Digite seu PIB: \n");
-   scanf("%f", PIB02);
+   printf("Digite seu PIB: \n");
+   scanf("%f", &PIB02);
 
 
 
