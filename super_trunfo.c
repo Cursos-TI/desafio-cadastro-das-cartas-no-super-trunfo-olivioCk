@@ -63,6 +63,14 @@ int main(){
    printf("Digite seu PIB: \n");
    scanf("%f", &PIB02);
 
+   printf("carta01: %s\n - codigo01: %s\n - Estado: %s\n - cidade: %s\n", carta01, codigo01, Estado01, cidade01);
+   printf("população01: %d\n - pontosturisticos01: %d\n", população01, pontosturisticos01);
+   printf("area01: %f\n - PIB01: %f\n", area01, PIB01);
+
+   printf("carta02: %s\n - codigo02: %s\n - Estado: %s\n - cidade: %s\n", carta02, codigo02, Estado02, cidade02);
+   printf("população02: %d\n - pontosturisticos: %d\n", população02, pontosturisticos02);
+   printf("area02: %f\n - PIB02: %f\n", area02, PIB02);
+
    return 0;
 
 
@@ -71,5 +79,5 @@ int main(){
 
 
 
-   
+
 }
