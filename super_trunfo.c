@@ -16,7 +16,7 @@ int main(){
    float PIB02;
 
    printf("Digite sua carta01: \n");
-   scanf("%f", &carta01);
+   scanf("%s", carta01);
 
    printf("Digite seu codigo: \n");
    scanf("%s", codigo01);
@@ -39,9 +39,8 @@ int main(){
    printf("Digite seu PIB: \n");
    scanf("%f", &PIB01);
 
-
    printf("Digite sua carta02: \n");
-   scanf("%f", &carta02);
+   scanf("%s", carta02);
 
    printf("Digite seu codigo: \n");
    scanf("%s", codigo02);
@@ -64,10 +63,13 @@ int main(){
    printf("Digite seu PIB: \n");
    scanf("%f", &PIB02);
 
+   return 0;
 
 
 
 
 
 
+
+   
 }
