@@ -8,12 +8,14 @@ int main(){
    int pontosturisticos01;
    float area01;
    float PIB01;
+   float densidade01, pibPerCapita01;
 
    char carta02[50], codigo02[50], Estado02[50], cidade02[50];
    int população02;
    int pontosturisticos02;
    float area02;
    float PIB02;
+   float densidade02, pibPerCapita02;
 
    printf("Digite sua carta01: \n");
    scanf("%s", carta01);
@@ -70,6 +72,12 @@ int main(){
    printf("carta02: %s\n codigo02: %s\n Estado: %s\n cidade: %s\n", carta02, codigo02, Estado02, cidade02);
    printf("população02: %d\n pontosturisticos: %d\n", população02, pontosturisticos02);
    printf("area02: %f\n PIB02: %f\n", area02, PIB02);
+
+       densidade01 = população01 / area01;
+    pibPerCapita01 = (PIB01 * 1000000000.0) / população01;  
+
+    densidade02 = população02 / area02;
+    pibPerCapita02 = (PIB02 * 1000000000.0) / população02;
 
    
    return 0;
