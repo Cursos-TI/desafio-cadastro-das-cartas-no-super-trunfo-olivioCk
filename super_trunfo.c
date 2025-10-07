@@ -9,7 +9,7 @@ int main(){
    float area01;
    float PIB01;
    float densidade01, pibPerCapita01;
-   float pibPerCapita01;   
+   float PIBPerCapita01;   
    float super_poder01;
 
    char carta02[50], codigo02[50], Estado02[50], cidade02[50];
@@ -18,7 +18,7 @@ int main(){
    float area02;
    float PIB02;
    float densidade02, pibPerCapita02;
-   float pibPerCapita02;   
+   float PIBPerCapita02;   
    float super_poder02;
 
    printf("Digite sua carta01: \n");
@@ -84,15 +84,26 @@ int main(){
     densidade02 = população02 / area02;
     pibPerCapita02 = (PIB02 * 1000000000.0) / população02;
 
-    
-    
+    printf("CARTA 1: %s\n", carta01);
+    printf(" Populacao: %d\n", população01);
+    printf(" Pontos Turisticos: %d\n", pontosturisticos01);
+    printf(" Area: %.2f km^2\n", area01);
+    printf(" PIB: %.2f B$\n", PIB01);
+    printf(" Densidade: %.2f hab/km^2\n", densidade01);
+    printf(" PIBPerCapita01: R$ %.2f\n", PIBPerCapita01);
+    printf(" ** SUPER PODER: %.2f **\n", super_poder01);
+
+    printf("\nCARTA 2: %s\n", carta02);
+    printf(" Populacao: %d\n", população02);
+    printf(" Pontos Turisticos: %d\n", pontosturisticos02);
+    printf(" Area: %.2f km2\n", area02);
+    printf(" PIB: %.2f B$\n", PIB02);
+    printf(" Densidade: %.2f hab/km2\n", densidade02);
+    printf(" PIBPerCapita02: R$ %.2f\n", PIBPerCapita02);
+    printf("SUPER PODER: %.2f\n", super_poder02);
+
 
     
-    
-
-    
-
-   
    return 0;
 
 
