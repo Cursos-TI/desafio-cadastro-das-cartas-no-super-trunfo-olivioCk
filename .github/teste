@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main() {
+    // =======================
+    // 1. Movimento da Torre (for)
+    // =======================
+    // A torre se move 5 casas para a direita
+    printf("Movimento da Torre:\n");
+    for (int i = 1; i <= 5; i++) {
+        printf("Casa %d: Direita\n", i);
+    }
+
+    printf("\n"); // Separador visual
+
+    // =======================
+    // 2. Movimento do Bispo (while)
+    // =======================
+    // O bispo se move 5 casas na diagonal para cima e para a direita
+    printf("Movimento do Bispo:\n");
+    int j = 1;
+    while (j <= 5) {
+        printf("Casa %d: Cima, Direita\n", j);
+        j++;
+    }
+
+    printf("\n");
+
+    // =======================
+    // 3. Movimento da Rainha (do-while)
+    // =======================
+    // A rainha se move 8 casas para a esquerda
+    printf("Movimento da Rainha:\n");
+    int k = 1;
+    do {
+        printf("Casa %d: Esquerda\n", k);
+        k++;
+    } while (k <= 8);
+
+    return 0;
+}
